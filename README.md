@@ -15,7 +15,7 @@ clone this repository at the desired directory, Install dependencies
 npm install
 ```
 
-now starting the app you need to set up and start the (hello-rails-back-end)[https://github.com/JuanLPalacios/hello-rails-back-end]
+now starting the app you need to set up and start the [hello-rails-back-end](https://github.com/JuanLPalacios/hello-rails-back-end)
 
 Start React Server
 
