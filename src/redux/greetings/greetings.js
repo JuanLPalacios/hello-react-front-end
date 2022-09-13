@@ -1,3 +1,4 @@
+const BASE_URL = 'http://localhost:3000';
 const RAND = '/greetings';
 const RAND_SUCCESS = '/greetings/SUCCESS';
 const RAND_FALURE = '/greetings/FALURE';
@@ -14,7 +15,7 @@ export default function reducer(state = '', action = {}) {
 
 export const getGreeting = () => (dispatch) => {
   dispatch({ type: RAND });
-  return fetch('/greetings').then(
+  return fetch(`${BASE_URL}/greetings`).then(
     (request) => request.json().then(({ message }) => dispatch({
       type: RAND_SUCCESS,
       message,
